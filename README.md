@@ -126,6 +126,8 @@ sudo dmesg | tail
 ```
 
 ---
+<img width="1220" height="650" alt="image" src="https://github.com/user-attachments/assets/0bb9a1f1-b75f-4916-8107-37d340e14576" />
+
 
 # Scheduler Experiment
 
@@ -135,6 +137,7 @@ Two CPU-bound workloads were run concurrently:
 nice -n 0 ./cpu_hog
 nice -n 10 ./cpu_hog
 ```
+<img width="1220" height="700" alt="image" src="https://github.com/user-attachments/assets/604faf49-3bd6-4e46-b6e0-674e6f001fd9" />
 
 Result:
 
