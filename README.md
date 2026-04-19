@@ -59,6 +59,8 @@ ls -l /dev/container_monitor
 ```bash
 sudo ./engine supervisor
 ```
+<img width="1193" height="377" alt="image" src="https://github.com/user-attachments/assets/44e99f24-3ddd-42fa-ba55-cc510734d61d" />
+
 
 ## Start containers
 
@@ -66,6 +68,7 @@ sudo ./engine supervisor
 sudo ./engine start alpha
 sudo ./engine start beta
 ```
+<img width="1196" height="330" alt="image" src="https://github.com/user-attachments/assets/99b1ca9f-7f3c-4b73-b92c-f79469f465a6" />
 
 ## List containers
 
@@ -73,11 +76,13 @@ sudo ./engine start beta
 sudo ./engine ps
 ```
 
+
 ## Stop container
 
 ```bash
 sudo ./engine stop alpha
 ```
+<img width="1197" height="213" alt="image" src="https://github.com/user-attachments/assets/18115089-48b8-4d5e-9e24-82c79f0653fd" />
 
 ---
 
@@ -88,6 +93,7 @@ Each container uses:
 * PID namespace
 * Mount namespace
 * UTS namespace
+<img width="1196" height="652" alt="image" src="https://github.com/user-attachments/assets/7eb3e21a-aea3-4dfa-af6c-668e73ccd866" />
 
 Separate rootfs copies were used:
 
