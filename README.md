@@ -139,9 +139,6 @@ nice -n 10 ./cpu_hog
 ```
 <img width="1220" height="700" alt="image" src="https://github.com/user-attachments/assets/604faf49-3bd6-4e46-b6e0-674e6f001fd9" />
 
-Result:
-
-The lower nice value received more CPU share, demonstrating Linux CFS priority weighting.
 
 ---
 
